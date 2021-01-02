@@ -1,0 +1,18 @@
+CREATE TABLE new_users(
+id serial PRIMARY KEY,
+first_name VARCHAR(50),
+birth_date DATE CHECK(birth_date > '1900-01-01'),
+join_date DATE CHECK(join_date > birth_date),
+salary_value integer CHECK(salary_value>0));
+
+INSERT INTO new_users (first_name, birth_date,join_date,salary_value)
+VALUES('Joe','1980-02-02','1990-04-04',-10)
+
+CREATE TABLE checktest(
+sales integer CONSTRAINT positive_sales CHECK(sales>0));
+
+INSERT INTO checktest(sales)
+VALUES(-10);
+ERROR:  new row for relation "checktest" violates check constraint "positive_sales"
+DETAIL:  Failing row contains (-10).
+

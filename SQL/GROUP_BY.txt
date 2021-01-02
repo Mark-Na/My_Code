@@ -1,0 +1,20 @@
+SELECT customer_id
+FROM payment
+GROUP BY customer_id;
+/*acts like DISTINCT here*/
+
+SELECT staff_id, COUNT(payment_id)
+FROM payment
+GROUP BY staff_id;
+
+SELECT rating, COUNT(rating)
+FROM film
+GROUP BY rating;
+
+SELECT rental_duration,COUNT(rental_duration)
+FROM film
+GROUP BY rental_duration;
+
+SELECT rating, ROUND(AVG(rental_rate),2)
+FROM film
+GROUP BY rating;

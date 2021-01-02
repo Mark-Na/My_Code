@@ -1,0 +1,22 @@
+primary key is a column or a group of columns that is used 
+to identify a row uniquely in a table
+
+table can only have one primary key
+add a primary key to every table
+
+CREATE TABLE table_name(
+column_name date_type PRIMARY KEY,
+column_name data_type,...);
+
+foreign key is field or group of fields in a table that uniquely 
+identifies a row in another table (refers to primary key of another table)
+
+table that contins foreign key is referencing table or child
+while the other is the referenced or parent
+a table can have multiple foreign keys depending on its relationships
+with other tables
+
+foreign key constraint indicates that values in a column or multiple columns
+in achild table match with column or mulltiple in the parent
+
+

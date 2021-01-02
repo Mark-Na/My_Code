@@ -1,0 +1,36 @@
+SELECT first_name,last_name
+FROM customer
+WHERE first_name LIKE 'Jen%';
+/*mathching sequence of character that start with Jen*/
+
+SELECT first_name,last_name
+FROM customer
+WHERE first_name LIKE '%y';
+/*names that end with y*/
+
+SELECT first_name,last_name
+FROM customer
+WHERE first_name LIKE 'J_';
+/*returns a name that has two letters that starts with J*/
+
+SELECT first_name,last_name
+FROM customer
+WHERE first_name LIKE '%er%';
+/*returns a name that has er somewhere in the name*/
+
+/*% represents any number of characters while _ represents a single character*/
+
+SELECT first_name,last_name
+FROM customer
+WHERE first_name LIKE '_her%';
+/*find name that starts with anything but has 'her' after it and any number of other letters after it*/
+
+SELECT first_name,last_name
+FROM customer
+WHERE first_name NOT LIKE 'Jen%';
+/*names that do not start with jen*/
+
+SELECT first_name,last_name
+FROM customer
+WHERE first_name ILIKE 'BaR%';
+/*ignores case sensitivity to find people who have a name that start with 'Bar'*/

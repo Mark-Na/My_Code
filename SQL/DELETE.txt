@@ -1,0 +1,11 @@
+DELETE FROM table 
+WHERE condition
+
+returns number f rows deleted
+
+DELETE FROM link
+WHERE name LIKE 'B%';
+
+DELETE FROM link
+WHERE name = 'A'
+RETURNING *

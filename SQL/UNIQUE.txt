@@ -1,0 +1,13 @@
+CREATE TABLE people(
+id serial PRIMARY KEY,
+first_name VARCHAR(50),
+email VARCHAR(100)UNIQUE);
+
+INSERT INTO people(id,first_name,email)
+VALUES (1,'Joe','joe@joe.com');
+
+INSERT INTO people(id,first_name,email)
+VALUES (2,'Joeseph','joe@joe.com');
+
+ERROR:  duplicate key value violates unique constraint "people_email_key"
+DETAIL:  Key (email)=(joe@joe.com) already exists.

@@ -1,0 +1,82 @@
+1.
+SELECT * 
+FROM cd.facilities;
+
+2.
+SELECT name,membercost
+FROM cd.facilities;
+
+3.
+SELECT name
+FROM cd.facilities
+WHERE membercost >0;
+
+4.
+SELECT facid,name,membercost,monthlymaintenance
+FROM cd.facilities
+WHERE membercost < 1/50 * monthlymaintenance + monthlymaintenance % 50;
+
+5.
+SELECT name
+FROM cd.facilities
+WHERE name LIKE '%Tennis%';
+/* could have just used * instead of name*/
+
+6.
+SELECT *
+FROM cd.facilities
+WHERE facid = 1 OR facid = 5;
+/* could also have written WHERE facid in (1,5)*/]
+
+7.
+SELECT memid,surname,firstname,joindate
+FROM cd.members
+WHERE joindate >= '2012-09-01';
+
+8.
+SELECT DISTINCT(surname)
+FROM cd.members
+ORDER BY surname
+LIMIT 10;
+
+9.
+SELECT surname,firstname,joindate
+FROM cd.members
+WHERE joindate > '2012-07-01'
+ORDER BY joindate
+LIMIT 1;
+/*select max(joindate) as latest from cd.members*/
+
+10.
+SELECT COUNT(name)
+FROM cd.facilities
+WHERE guestcost >= 10;
+
+12.
+SELECT facid, SUM(slots)
+FROM cd.bookings
+WHERE starttime BETWEEN '2012-09-01' AND '2012-10-01'
+GROUP BY facid
+ORDER BY SUM(slots) DESC;
+
+13.
+SELECT facid, SUM(slots)
+FROM cd.bookings
+GROUP BY facid
+HAVING SUM(slots)>1000
+ORDER BY facid ASC;
+
+14.
+SELECT a.starttime,b.name
+FROM cd.bookings AS a
+INNER JOIN cd.facilities AS b ON a.facid=b.facid
+WHERE (a.facid = 0 OR a.facid=1) 
+AND (a.starttime BETWEEN '2012-09-21' AND '2012-09-22')
+ORDER BY a.starttime;
+
+15.
+SELECT a.starttime,b.surname,b.firstname
+FROM cd.bookings AS a
+INNER JOIN cd.members AS b ON b.memid = a.memid
+WHERE b.surname = 'Farrell' AND b.firstname = 'David'
+ORDER BY a.starttime;

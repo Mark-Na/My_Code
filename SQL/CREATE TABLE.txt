@@ -1,0 +1,51 @@
+CREATE TABLE table_name
+(column_name TYPE column_constraint,
+table_constraint)
+INHERITS existing table_name;
+
+COLUMN CONSTRAINTS
+NOT NULL - value cannot be null
+UNIQUE- the value of column must be unique across whole table
+column can have may null values as null is considered unique
+PRIMARY KEY - NOT NULL and UNIQUE combined must use table level constraint
+CHECK- enables to check condition when inserting or updating data
+i.e values in price column of the product tabelmust be +ve vals
+REFERENCES- constrains value of column that exist in column of another table
+
+UNIQUE(column-list)- force vals stored in columns listed inside parentheses
+to be unique
+
+PRIMARY KEY()- to define the primary key that cosist of multipple columns
+
+CHECK(condition) to check condition when inserting or updating data
+
+REFERENCES - to constrain calue stored in column that must exist in a column in another tabel
+
+
+CREATE TABLE account(
+user_id serial PRIMARY KEY,
+username VARCHAR(50) UNIQUE NOT NULL,
+password VARCHAR(50) NOT NULL,
+email VARCHAR(355) UNIQUE NOT NULL,
+created_on timestamp NOT NULL,
+last_login timestamp NOT NULL);
+
+CREATE TABLE role(
+role_id serial PRIMARY KEY,
+role_name VARCHAR(255) UNIQUE NOT NULL);
+
+
+CREATE TABLE account_role(
+user_id integer NOT NULL,
+role_id integer NOT NULL,
+grant_date timestamp without time zone,
+PRIMARY KEY (user_id,role_id),
+
+ CONSTRAINT account_role_role_id_fkey FOREIGN KEY (role_id)
+      REFERENCES role (role_id) MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION,
+
+  CONSTRAINT account_role_user_id_fkey FOREIGN KEY (user_id)
+      REFERENCES account (user_id) MATCH SIMPLE
+      ON UPDATE NO ACTION ON DELETE NO ACTION
+);

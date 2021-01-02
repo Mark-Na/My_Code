@@ -1,0 +1,28 @@
+boolean or bool data type
+1,yes,y,t,true,0,no, n false, f
+
+char single character
+char(n) fixed length of value n and will pad spaces or will give error if you insert something longer
+varchar(n) variable length character strings won't pad spaces good for names but still set some limit
+
+number
+integers
+float point numbers
+small int is 2 byte signed integer
+int is 4 byte integer
+serial same as iteger except postgresql populate value into column automatically
+
+float point numbers
+float(n) where precision is at least n up to 8 bytes
+real or float8 is 8 byte float point number
+numeric or numeric(p,s) is real number p digits and s number after decimal point numeric(p,) gives exact
+
+temporal
+date stores date data
+time
+timestamp stores date and time
+interval stores the difference in timestamps
+timestamptz store both timestamp and timezone data
+
+
+

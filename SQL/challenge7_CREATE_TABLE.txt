@@ -1,0 +1,15 @@
+1.
+CREATE TABLE customer(
+customer_id serial PRIMARY KEY,
+first_name VARCHAR(50) NOT NULL,
+last_name VARCHAT(50) NOT NULL,
+sign_up_date timestamp NOT NULL,
+time_on_site integer NOT NULL)
+
+CREATE TABLE leads(
+user_id serial PRIMARY KEY,
+first_name VARCHAR(50) NOT NULL,
+last_name VARCHAR(50) NOT NULL,
+email VARCHAR(355) UNIQUE NOT NULL,
+time_on_site integer NOT NULL,
+sign_up_date timestamp NOT NULL)

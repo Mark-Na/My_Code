@@ -1,0 +1,9 @@
+DROP TABLE [IF EXISTS] table_name;
+/* IF EXISTS is optional statement*/
+
+DROP TABLE IF EXISTS test_two;
+DROP TABLE test_two;
+DROP TABLE IF EXISTS test_two RESTRICT;
+/* by default this happens*/
+DROP TABLE IF EXISTS test_two CASCADE;
+/*removes all dependencies on this table or other tables*/

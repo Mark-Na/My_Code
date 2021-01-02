@@ -1,0 +1,33 @@
+view is database object that is of a stored query
+
+SELECT c1,c2,c3,c4,c5,c6
+FROM t1
+JOIN t2 USING (c1)
+JOIN t3 USING(c2)
+
+------->
+
+SELECT = FROM view
+
+CREATE VIEW view_name AS query;
+
+SELECT first_name,last_name,email,address,phone
+FROM customer
+JOIN address
+ON customer.address_id = address.address_id;
+
+CREATE VIEW customer_info AS
+SELECT first_name,last_name,email,address,phone
+FROM customer
+JOIN address
+ON customer.address_id = address.address_id;
+
+SELECT * 
+FROM customer_info;
+
+ALTER VIEW customer_info RENAME TO customer_master_list;
+
+SELECT *
+FROM customer_master_list;
+
+DROP VIEW IF EXISTS customer_master_list;

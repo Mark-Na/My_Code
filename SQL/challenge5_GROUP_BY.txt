@@ -1,0 +1,11 @@
+1.
+SELECT staff_id, COUNT(amount), SUM(amount)
+FROM payment
+GROUP BY staff_id;
+
+2.
+SELECT customer_id, SUM(amount)
+FROM payment
+GROUP BY customer_id
+ORDER BY SUM(amount) DESC
+LIMIT 5;

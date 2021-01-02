@@ -1,0 +1,14 @@
+SELECT rental_id/customer_id AS new_id  
+FROM payment;
+
+SELECT ROUND(AVG(amount),2)
+FROM payment;
+
+SELECT rental_id+customer_id AS new_id  
+FROM payment;
+
+SELECT rental_id-customer_id AS new_id  
+FROM payment;
+
+SELECT rental_id*customer_id AS new_id  
+FROM payment;

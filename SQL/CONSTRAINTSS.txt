@@ -1,0 +1,8 @@
+CHECK:
+
+specify if a value in a column must meet a specific requirement
+
+uses a boolean expression to eval the values
+
+if it passes check then program will insert or update vals
+

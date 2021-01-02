@@ -1,0 +1,14 @@
+UPDATE table
+SET column1=value1,
+column2 = value2,...
+WHERE condition;
+
+changes the values of the columns in a table
+
+UPDATE link
+SET description = 'Empty Description';
+
+UPDATE link
+SET description = 'New Description'
+WHERE id = 1 
+RETURNING id,url,name,description;

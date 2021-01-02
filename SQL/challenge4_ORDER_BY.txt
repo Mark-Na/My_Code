@@ -1,0 +1,19 @@
+Example
+SELECT first_name,last_name 
+FROM customer
+ORDER BY first_name ASC,
+last_name ASC;
+
+Challenge 
+
+1.
+SELECT customer_id,amount
+FROM payment
+ORDER BY amount DESC
+LIMIT 10;
+
+2. 
+SELECT title,film_id
+FROM film
+ORDER BY film_id ASC
+LIMIT 5;
