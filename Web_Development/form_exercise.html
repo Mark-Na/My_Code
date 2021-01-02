@@ -1,0 +1,73 @@
+<!Doctype html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <label for="first_name">First Name:</label>
+        <input name="first_name" id = "first_name" type="text" placeholder="John" required>
+
+        <label for="last_name">Last Name:</label>
+        <input name= "last_name" id = "last_name" type="text" placeholder="Smith" required>
+
+        <div>
+            <label for="male">Male</label>
+            <input name = "gender" id="male" type="radio" value="MALE" >
+    
+            <label for="female">Female</label>
+            <input name = "gender" id="female" type="radio" value="FEMALE" >
+    
+            <label for="other">Other</label>
+            <input name = "gender" id="other" type="radio" value="OTHER">
+        </div>
+            
+        
+        <div>
+            <label for="email">email:</label>
+            <input id = "email" type="email" placeholder="email" required>
+    
+            <label>Password:</label>
+            <input id ="password" type="password" placeholder="password" pattern=".{5,10}" required title="5 to 10 characters">
+
+        </div>
+
+        <div>
+            <label for="birthday">Birthday:</label>
+            <select name="Month">
+                <option>Month</option>
+                <option>Jan</option>
+                <option>Feb</option>
+            </select>
+            <select name="Day">
+                <option>Day</option>
+                <option>01</option>
+                <option>02</option>
+            </select>
+            <select name="Year">
+                <option>Year</option>
+                <option>2001</option>
+                <option></option>2002</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="agreed">I agree to the terms and conditions</label>
+            <input id="agreed" type="checkbox" required>
+        </div>
+                    
+    
+        <div>
+            <input type="submit" value=Sign-In>
+        </div>
+            
+        
+    </form>
+
+   
+
+   
+    
+</body>
+</html>

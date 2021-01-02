@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"name": "python course",
+			"path": "."
+		},
+		{
+			"name": "python stuff",
+			"path": "..\\python stuff"
+		},
+		{
+			"path": "..\\web development"
+		}
+	],
+	"settings": {}
+}

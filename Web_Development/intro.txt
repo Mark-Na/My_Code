@@ -1,0 +1,43 @@
+when opening a website we send a packet to the internet hub which asks for permission to see a website and then it goes to the server that the website is hosted on 
+then when the request is sent to the server, the server sends the information through different means so it can get back to the user's computer
+
+query is submitted to isp
+the isp, the dns takes the domain name and turns it into ip address
+request is sent to desired ip address
+reuest finds fastest path to the server with specified ip
+not a direct journey, bounces from server to server
+requested server figures out what we are asking for
+server builds the right content by pulling info from database
+server responds with any combination of HTML CSS and JAVASCRIPT
+can view any underlying html css and javascript on any webpage
+on chrome right click and select view page source
+or select view > developer > view source
+ctrl+u 
+
+front end is stuff ypu see and interact with : HTML CCSS JAVASCRIPT
+Back end is everything else
+Like a restaurant, backend is kitchen, front end is what is plated and sent to the table
+
+HTML:
+hypertext markup language
+defines structure of a webpage:
+    put an image here 
+    put a form here 
+the nouns of a webpage 
+
+CSS:
+cascading style sheets
+defined the style of html:
+    make all text purple
+    give first image a yellow border
+the adjectives of the webpage
+
+JAVASCRIPT:
+adds logic and interactivity to the page:
+    do some math
+    change color when user clicks
+    load new data from twitter
+the actions or verbs of a website
+
+codepen.io 
+

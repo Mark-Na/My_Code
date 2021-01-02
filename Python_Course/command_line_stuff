@@ -1,0 +1,37 @@
+Get-Service | Where-Object {$_.Status -eq "Running"}
+python
+cd .\Desktop
+python .my_code.py
+pwd gives path, print working directory
+cd, change directory  EX: cd C:\Users
+cd .. go back one level/folder
+ls is list all cntents of directory
+. means current folder and whatever is in front of it
+clear clears the powershell
+cd .\Colts_Code\ then ls
+cd ~ takes straight to home directory
+root directory is cd\
+cd ~ \Desktop then press tab
+mkdir makes a new folder/directory
+colt~ stuff mkdir stuff creates new folder in stuff
+making files:
+touch app.py new python files
+touch rps.py makes new file
+python 3 wants utf 8
+New-Item -ItemType file swings.py 
+echo $null >> slide.py
+function touch {New-Item -ItemType FIle -Name ($arfs[0])}
+touch filename
+Permanent function:
+C:\Users\USERNAMEHERE\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+Test-Path $PowerShell_profile
+If TRUE go to above location and copy and paste in function line and restart powershell
+If FALSE then enter below commanf to create new empty profile if no profile found
+New-Item -Path $PROFILE -Type File -force
+Remove Files/Folders:
+rm command 
+rm GOAT.txt
+rm -r -fo directoryname
+-r is for recursion to deletethe level and everything after it
+*very dangerous and powerful command*
+
