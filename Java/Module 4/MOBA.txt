@@ -1,0 +1,29 @@
+19
+Do you like playing Melee?
+Do you like using many spells?
+Do you like taking a lot of damage protecting your team?
+Do you like playing ranged back line?
+Do you like healing/supporting your team?
+Do you like jumping in onto the enemy backline?
+Would you sacrifice yourself for the team?
+Don't play MOBAs.
+Play Marksman.
+Do you like doing lots of magic damage?
+Play Support.
+Do you like buying bruiser items?
+Play Assassin.
+Don't play MOBAs.
+Play Tank.
+Don't play MOBAs.
+Play Mage.
+Don't play MOBAs.
+Play Fighter.
+9 15 16
+11 17 18
+3 7 8
+4 9 10
+5 11 12
+6 13 14
+1 3 4
+2 5 6
+0 1 2
