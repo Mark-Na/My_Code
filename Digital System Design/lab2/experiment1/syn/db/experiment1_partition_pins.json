@@ -1,0 +1,101 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SEVEN_SEGMENT_N_O[0][1]",
+					"strict" : false
+				},
+				{
+					"name" : "SEVEN_SEGMENT_N_O[0][2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEVEN_SEGMENT_N_O[0][3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEVEN_SEGMENT_N_O[0][6]",
+					"strict" : false
+				},
+				{
+					"name" : "SEVEN_SEGMENT_N_O[4][0]",
+					"strict" : false
+				},
+				{
+					"name" : "SEVEN_SEGMENT_N_O[4][2]",
+					"strict" : false
+				},
+				{
+					"name" : "SEVEN_SEGMENT_N_O[4][3]",
+					"strict" : false
+				},
+				{
+					"name" : "SEVEN_SEGMENT_N_O[4][4]",
+					"strict" : false
+				},
+				{
+					"name" : "SEVEN_SEGMENT_N_O[4][5]",
+					"strict" : false
+				},
+				{
+					"name" : "SEVEN_SEGMENT_N_O[4][6]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN_O[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN_O[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN_O[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN_O[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN_O[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN_O[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN_O[8]",
+					"strict" : false
+				},
+				{
+					"name" : "PUSH_BUTTON_N_I[0]",
+					"strict" : false
+				},
+				{
+					"name" : "PUSH_BUTTON_N_I[1]",
+					"strict" : false
+				},
+				{
+					"name" : "PUSH_BUTTON_N_I[2]",
+					"strict" : false
+				},
+				{
+					"name" : "PUSH_BUTTON_N_I[3]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK_50_I",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[17]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,266 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mark Naguib/Documents/GitHub/lab5-group03-tuesday/experiment3/sim
+vconvert_hex_to_seven_segment
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1603223037
+!i10b 1
+!s100 gCDajT?`DR:NHWTAolka01
+IefVK?VN;A@01bXUZJ5^aa2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 convert_hex_to_seven_segment_sv_unit
+S1
+R0
+Z4 w1603219155
+8../rtl/convert_hex_to_seven_segment.sv
+F../rtl/convert_hex_to_seven_segment.sv
+L0 14
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1603223037.000000
+!s107 ../rtl/convert_hex_to_seven_segment.sv|
+!s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|../rtl/convert_hex_to_seven_segment.sv|
+!i113 1
+Z7 o-sv -work my_work
+Z8 !s92 -sv -work my_work +define+DISABLE_DEFAULT_NET
+Z9 tCvgOpt 0
+vdual_port_RAM
+R1
+R2
+!i10b 1
+!s100 QCnoCU3gFdie_0A0=ikf13
+IWV7Hh9X>7cHl?Z8AWkBFe3
+R3
+!s105 dual_port_RAM_v_unit
+S1
+R0
+R4
+8../rtl/dual_port_RAM.v
+F../rtl/dual_port_RAM.v
+L0 40
+R5
+r1
+!s85 0
+31
+R6
+!s107 ../rtl/dual_port_RAM.v|
+!s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|../rtl/dual_port_RAM.v|
+!i113 1
+R7
+R8
+R9
+ndual_port_@r@a@m
+vexperiment3
+R1
+DXx4 work 19 experiment3_sv_unit 0 22 [`FgI2[[hhdM;MkfNQ3[33
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 b8VC96JgmGb6?n>_<ofUJ0
+ISo7ESX;4aY8?3=5lEK<G73
+!s105 experiment3_sv_unit
+S1
+R0
+R4
+Z10 8../rtl/experiment3.sv
+Z11 F../rtl/experiment3.sv
+L0 17
+R5
+R6
+Z12 !s107 ..\rtl\define_state.h|../rtl/experiment3.sv|
+Z13 !s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|+define+SIMULATION|../rtl/experiment3.sv|
+!i113 1
+R7
+Z14 !s92 -sv -work my_work +define+DISABLE_DEFAULT_NET +define+SIMULATION
+R9
+Xexperiment3_sv_unit
+R1
+V[`FgI2[[hhdM;MkfNQ3[33
+r1
+!s85 0
+31
+!i10b 1
+!s100 KC=z4<AY_9m;>2dAanJ5A0
+I[`FgI2[[hhdM;MkfNQ3[33
+!i103 1
+S1
+R0
+R4
+R10
+R11
+Z15 F..\rtl\define_state.h
+L0 5
+R5
+R6
+R12
+R13
+!i113 1
+R7
+R14
+R9
+vTB
+R1
+DXx4 work 17 testbench_sv_unit 0 22 ceQCZ?mhgM]6z:gQ[YJz^3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 icT99_iP>8D6CjWR;hH;C3
+I9hK5YS8jNMoczKR2H4z>C0
+!s105 testbench_sv_unit
+S1
+R0
+R4
+Z16 8../tb/testbench.sv
+Z17 F../tb/testbench.sv
+L0 15
+R5
+R6
+Z18 !s107 ../rtl/define_state.h|../tb/testbench.sv|
+Z19 !s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|../tb/testbench.sv|
+!i113 1
+R7
+R8
+R9
+n@t@b
+Xtestbench_sv_unit
+R1
+VceQCZ?mhgM]6z:gQ[YJz^3
+r1
+!s85 0
+31
+!i10b 1
+!s100 zgT7__31]CVa[==NCk9iD0
+IceQCZ?mhgM]6z:gQ[YJz^3
+!i103 1
+S1
+R0
+R4
+R16
+R17
+F../rtl/define_state.h
+L0 5
+R5
+R6
+R18
+R19
+!i113 1
+R7
+R8
+R9
+vUART_receive_controller
+R1
+DXx4 work 31 UART_receive_controller_sv_unit 0 22 0mh=O`>TiTVPD?IlHQSf;2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 A@gI8Q:[YdBd3jR135EkZ3
+InFUi]6Vdl=J^7eJ<753b]2
+!s105 UART_receive_controller_sv_unit
+S1
+R0
+R4
+Z20 8../rtl/UART_receive_controller.sv
+Z21 F../rtl/UART_receive_controller.sv
+L0 25
+R5
+R6
+Z22 !s107 ..\rtl\define_state.h|../rtl/UART_receive_controller.sv|
+Z23 !s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|+define+SIMULATION|../rtl/UART_receive_controller.sv|
+!i113 1
+R7
+R14
+R9
+n@u@a@r@t_receive_controller
+XUART_receive_controller_sv_unit
+R1
+V0mh=O`>TiTVPD?IlHQSf;2
+r1
+!s85 0
+31
+!i10b 1
+!s100 YUeIGmL2=0K8Sb>2i3QX:2
+I0mh=O`>TiTVPD?IlHQSf;2
+!i103 1
+S1
+R0
+R4
+R20
+R21
+R15
+L0 5
+R5
+R6
+R22
+R23
+!i113 1
+R7
+R14
+R9
+n@u@a@r@t_receive_controller_sv_unit
+vUART_transmit_controller
+R1
+DXx4 work 32 UART_transmit_controller_sv_unit 0 22 7U?Zb<1=^0I@jA6<PG30^3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 [=C8>f[aAUS8jGV3aSE`?2
+IQD`?gkN1gnN]Mee898id91
+!s105 UART_transmit_controller_sv_unit
+S1
+R0
+Z24 w1603223016
+Z25 8../rtl/UART_transmit_controller.sv
+Z26 F../rtl/UART_transmit_controller.sv
+L0 16
+R5
+R6
+Z27 !s107 ..\rtl\define_state.h|../rtl/UART_transmit_controller.sv|
+Z28 !s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|../rtl/UART_transmit_controller.sv|
+!i113 1
+R7
+R8
+R9
+n@u@a@r@t_transmit_controller
+XUART_transmit_controller_sv_unit
+R1
+V7U?Zb<1=^0I@jA6<PG30^3
+r1
+!s85 0
+31
+!i10b 1
+!s100 HmcdmkO:G5XSiID[gQRal2
+I7U?Zb<1=^0I@jA6<PG30^3
+!i103 1
+S1
+R0
+R24
+R25
+R26
+R15
+L0 5
+R5
+R6
+R27
+R28
+!i113 1
+R7
+R8
+R9
+n@u@a@r@t_transmit_controller_sv_unit

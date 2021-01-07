@@ -1,0 +1,7 @@
+
+State Machine - |experiment4|PS2_controller:ps2_unit|PS2_state
+Name PS2_state.S_PS2_STOP PS2_state.S_PS2_PARITY PS2_state.S_PS2_ASSEMBLE_CODE PS2_state.S_PS2_IDLE 
+PS2_state.S_PS2_IDLE 0 0 0 0 
+PS2_state.S_PS2_ASSEMBLE_CODE 0 0 1 1 
+PS2_state.S_PS2_PARITY 0 1 0 1 
+PS2_state.S_PS2_STOP 1 0 0 1 

@@ -1,0 +1,217 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mark Naguib/Documents/GitHub/lab5-group03-tuesday/experiment2/sim
+vexperiment2
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+DXx4 work 19 experiment2_sv_unit 0 22 Ml62PG@Fji7E9SPn_UQ6S0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 dFaAc_l7dikD49BcA9k_Y2
+Id3UZlTGh2FaIjOOn9Nc4`0
+!s105 experiment2_sv_unit
+S1
+R0
+Z3 w1603220136
+Z4 8../rtl/experiment2.sv
+Z5 F../rtl/experiment2.sv
+L0 19
+Z6 OV;L;10.5b;63
+Z7 !s108 1603220388.000000
+Z8 !s107 ..\rtl\define_state.h|../rtl/experiment2.sv|
+Z9 !s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|../rtl/experiment2.sv|
+!i113 1
+Z10 o-sv -work my_work
+Z11 !s92 -sv -work my_work +define+DISABLE_DEFAULT_NET
+Z12 tCvgOpt 0
+Xexperiment2_sv_unit
+R1
+VMl62PG@Fji7E9SPn_UQ6S0
+r1
+!s85 0
+31
+!i10b 1
+!s100 LfiKOeRd1>>UWc^0HgeWV1
+IMl62PG@Fji7E9SPn_UQ6S0
+!i103 1
+S1
+R0
+R3
+R4
+R5
+F..\rtl\define_state.h
+L0 5
+R6
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vPB_controller
+R1
+Z13 !s110 1603220388
+!i10b 1
+!s100 KVjB]jZN]j1gl3c;FYhGh2
+I2V>hje`=`XT`JRH2MNGS53
+R2
+!s105 PB_controller_sv_unit
+S1
+R0
+Z14 w1603219155
+8../rtl/PB_controller.sv
+F../rtl/PB_controller.sv
+L0 13
+R6
+r1
+!s85 0
+31
+R7
+!s107 ../rtl/PB_controller.sv|
+!s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|../rtl/PB_controller.sv|
+!i113 1
+R10
+R11
+R12
+n@p@b_controller
+vSRAM_controller
+R1
+R13
+!i10b 1
+!s100 6zb`QmGDlEh?aUJE28M8^3
+IDzHb8geY5EDi`o0Z?5HIE2
+R2
+!s105 SRAM_controller_sv_unit
+S1
+R0
+R14
+8../rtl/SRAM_controller.sv
+F../rtl/SRAM_controller.sv
+Z15 L0 15
+R6
+r1
+!s85 0
+31
+R7
+!s107 ../rtl/SRAM_controller.sv|
+!s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|+define+SIMULATION|../rtl/SRAM_controller.sv|
+!i113 1
+R10
+!s92 -sv -work my_work +define+DISABLE_DEFAULT_NET +define+SIMULATION
+R12
+n@s@r@a@m_controller
+vTB
+R1
+DXx4 work 17 testbench_sv_unit 0 22 _>iLNk3ggz_LeJk0YollF2
+R2
+r1
+!s85 0
+31
+!i10b 1
+!s100 on;DjLWG[cFnV0CL5?S^>1
+I1mDRziI1E=>k29V<kEWZF3
+!s105 testbench_sv_unit
+S1
+R0
+R14
+Z16 8../tb/testbench.sv
+Z17 F../tb/testbench.sv
+R15
+R6
+R7
+Z18 !s107 ../rtl/VGA_param.h|../rtl/define_state.h|../tb/testbench.sv|
+Z19 !s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|../tb/testbench.sv|
+!i113 1
+R10
+R11
+R12
+n@t@b
+vtb_SRAM_Emulator
+R1
+R13
+!i10b 1
+!s100 S@mBXAoJ;>2WZ1N0Neeez2
+Ihf0g8JXmB75l^7gk7>6_e1
+R2
+!s105 tb_SRAM_Emulator_sv_unit
+S1
+R0
+R14
+8../tb/tb_SRAM_Emulator.sv
+F../tb/tb_SRAM_Emulator.sv
+R15
+R6
+r1
+!s85 0
+31
+R7
+!s107 ../tb/tb_SRAM_Emulator.sv|
+!s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|../tb/tb_SRAM_Emulator.sv|
+!i113 1
+R10
+R11
+R12
+ntb_@s@r@a@m_@emulator
+Xtestbench_sv_unit
+R1
+V_>iLNk3ggz_LeJk0YollF2
+r1
+!s85 0
+31
+!i10b 1
+!s100 RQT1=X;^=]FTIjd5lA6A@3
+I_>iLNk3ggz_LeJk0YollF2
+!i103 1
+S1
+R0
+R14
+R16
+R17
+F../rtl/define_state.h
+F../rtl/VGA_param.h
+L0 5
+R6
+R7
+R18
+R19
+!i113 1
+R10
+R11
+R12
+vVGA_controller
+R1
+R13
+!i10b 1
+!s100 HUjGl<<o^Uo2kzIKM=9N`1
+Ik9MEh`R1@iZzb20>fYoO?2
+R2
+!s105 VGA_controller_sv_unit
+S1
+R0
+R14
+8../rtl/VGA_controller.sv
+F../rtl/VGA_controller.sv
+F..\rtl\VGA_param.h
+L0 14
+R6
+r1
+!s85 0
+31
+R7
+!s107 ..\rtl\VGA_param.h|../rtl/VGA_controller.sv|
+!s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|../rtl/VGA_controller.sv|
+!i113 1
+R10
+R11
+R12
+n@v@g@a_controller

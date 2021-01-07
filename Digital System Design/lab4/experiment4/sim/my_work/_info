@@ -1,0 +1,139 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Mark Naguib/Documents/GitHub/lab4-group03-tuesday/experiment4/sim
+vexperiment4
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1602017534
+!i10b 1
+!s100 [d:b8hnS6NzPdHmSLWDP[3
+IzoCW>obhJ1Ho7j_:_AL:<0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 experiment4_sv_unit
+S1
+R0
+Z4 w1602009490
+8../rtl/experiment4.sv
+F../rtl/experiment4.sv
+Z5 L0 13
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1602017534.000000
+!s107 ../rtl/experiment4.sv|
+!s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|../rtl/experiment4.sv|
+!i113 1
+Z8 o-sv -work my_work
+Z9 !s92 -sv -work my_work +define+DISABLE_DEFAULT_NET
+Z10 tCvgOpt 0
+vSRAM_BIST
+R1
+R2
+!i10b 1
+!s100 DD7J4jd1c1EITzFL7Wejd2
+IkMV5[lnzRmgmm7B]JEi^Q0
+R3
+!s105 SRAM_BIST_sv_unit
+S1
+R0
+w1602017495
+8../rtl/SRAM_BIST.sv
+F../rtl/SRAM_BIST.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 ../rtl/SRAM_BIST.sv|
+!s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|../rtl/SRAM_BIST.sv|
+!i113 1
+R8
+R9
+R10
+n@s@r@a@m_@b@i@s@t
+vSRAM_controller
+R1
+R2
+!i10b 1
+!s100 6zb`QmGDlEh?aUJE28M8^3
+IDzHb8geY5EDi`o0Z?5HIE2
+R3
+!s105 SRAM_controller_sv_unit
+S1
+R0
+R4
+8../rtl/SRAM_controller.sv
+F../rtl/SRAM_controller.sv
+Z11 L0 15
+R6
+r1
+!s85 0
+31
+R7
+!s107 ../rtl/SRAM_controller.sv|
+!s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|+define+SIMULATION|../rtl/SRAM_controller.sv|
+!i113 1
+R8
+!s92 -sv -work my_work +define+DISABLE_DEFAULT_NET +define+SIMULATION
+R10
+n@s@r@a@m_controller
+vTB
+R1
+R2
+!i10b 1
+!s100 c<Yao[22O5ZFoaUd:i0TP1
+IR;Y_@:Uhi7zR=DHljdmYa3
+R3
+!s105 testbench_sv_unit
+S1
+R0
+R4
+8../tb/testbench.sv
+F../tb/testbench.sv
+L0 11
+R6
+r1
+!s85 0
+31
+R7
+!s107 ../tb/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|../tb/testbench.sv|
+!i113 1
+R8
+R9
+R10
+n@t@b
+vtb_SRAM_Emulator
+R1
+R2
+!i10b 1
+!s100 S@mBXAoJ;>2WZ1N0Neeez2
+Ihf0g8JXmB75l^7gk7>6_e1
+R3
+!s105 tb_SRAM_Emulator_sv_unit
+S1
+R0
+R4
+8../tb/tb_SRAM_Emulator.sv
+F../tb/tb_SRAM_Emulator.sv
+R11
+R6
+r1
+!s85 0
+31
+R7
+!s107 ../tb/tb_SRAM_Emulator.sv|
+!s90 -reportprogress|300|-sv|-work|my_work|+define+DISABLE_DEFAULT_NET|../tb/tb_SRAM_Emulator.sv|
+!i113 1
+R8
+R9
+R10
+ntb_@s@r@a@m_@emulator

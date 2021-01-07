@@ -1,0 +1,129 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "VGA_CLOCK_O",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_HSYNC_O",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_VSYNC_O",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLANK_O",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED_O[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED_O[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED_O[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED_O[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED_O[4]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED_O[5]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED_O[6]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED_O[7]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN_O[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN_O[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN_O[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN_O[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN_O[4]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN_O[5]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN_O[6]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN_O[7]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE_O[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE_O[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE_O[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE_O[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE_O[4]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE_O[5]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE_O[6]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE_O[7]",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK_50_I",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[17]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,189 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LED_GREEN_O[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN_O[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN_O[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN_O[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN_O[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN_O[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN_O[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN_O[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_GREEN_O[8]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[8]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[9]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[10]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[11]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[12]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[13]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[14]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[15]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[16]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_RED_O[17]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[16]",
+					"strict" : false
+				},
+				{
+					"name" : "SWITCH_I[17]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
